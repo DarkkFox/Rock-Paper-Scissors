@@ -1,0 +1,21 @@
+.results {
+  display: flex;
+}
+.figure[data-figure="scissors"]::before {
+  content: "✌";
+}
+.figure[data-figure="paper"]::before {
+  content: "✋";
+}
+.figure[data-figure="rock"]::before {
+  content: "🤛";
+}
+#result[data-result="0"]::before {
+  content: "😐";
+}
+#result[data-result="1"]::before {
+  content: "😄";
+}
+#result[data-result="2"]::before {
+  content: "😨";
+}
