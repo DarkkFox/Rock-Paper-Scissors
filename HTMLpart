@@ -1,0 +1,6 @@
+<input type="button" value="Play!" id="button">
+<div class="results">
+  <div class="figure" id="first"></div>
+  <div id="result"></div>
+  <div class="figure" id="second"></div>
+</div>
